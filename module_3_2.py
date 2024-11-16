@@ -1,4 +1,3 @@
-from email.policy import default
 def send_email(message, recipient, sender = "university.help@gmail.com"):
     allowed_end = [".com",".ru",".net"]
     proper_rec = False
