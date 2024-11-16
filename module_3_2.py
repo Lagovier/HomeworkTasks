@@ -1,4 +1,4 @@
-def send_email(message, recipient, sender = "university.help@gmail.com"):
+def send_email(message, recipient, *, sender = "university.help@gmail.com"):
     allowed_end = [".com",".ru",".net"]
     proper_rec = False
     proper_sen = False
